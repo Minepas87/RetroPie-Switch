@@ -18,7 +18,7 @@ if [ "$_IP" ]; then
 fi
 
 #SET Dualshock 4 input
-/usr/local/bin/ds4drv --led 000008
+#/usr/local/bin/ds4drv --led 000008
 # SET display output
 bash /home/pi/display_loader/init.sh &
 

@@ -37,7 +37,8 @@ for change the default rc.local file with the new one.
 
 And done! Your system use HDMI screen if is available, otherwise will use secondary LCD!
 
-**Note**
+**Note!!!**
+
 In my rc.local file is included the boot script for ds4drv driver. By default is commented.
 If you want use it, open the file in terminal with `sudo nano /RetroPie-Switch/rc.local` and uncomment the line after `#SET Dualshock 4 input`.
 Than repeat the last command step. 

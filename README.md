@@ -1,8 +1,8 @@
 # RetroPie Switch
 
-This is the repo than help you to create a Nintendo Switch style RetroPie console!
+This is the repo that will help you create a Nintendo Switch-style RetroPie console!
 
-Required:
+Requirements:
 - Raspberry Pi
 - Micro SD (min 8GB)
 - Input method (keyboard *and* controller is preferred)
@@ -22,7 +22,7 @@ The steps:
 
 ## How to use this repo
 
-First type the command `cd` to make sure we are in the right folder.
+First type the command `cd` to make sure you are in the right folder.
 
 Now clone this repo with the command
 ``` 
@@ -33,12 +33,12 @@ When the process was complete type the command
 ```
 cp /Retropie-Switch/rc.local /etc/rc.local
 ```
-for change the default rc.local file with the new one.
+for replace the default rc.local file with the new one.
 
-And done! Your system use HDMI screen if is available, otherwise will use secondary LCD!
+And done! Now your system use HDMI screen if is available, otherwise will use secondary LCD!
 
 **Note!!!**
 
 In my rc.local file is included the boot script for ds4drv driver. By default is commented.
 If you want use it, open the file in terminal with `sudo nano /RetroPie-Switch/rc.local` and uncomment the line after `#SET Dualshock 4 input`.
-Than repeat the last command step. 
+Than repeat the last command. 

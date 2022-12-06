@@ -35,6 +35,17 @@ cp /Retropie-Switch/rc.local /etc/rc.local
 ```
 for replace the default rc.local file with the new one.
 
+Now go to the Retropie-Switch folder with
+```
+cd Retropie-Switch/
+```
+and use the dos2unix package for convert the init.sh script:
+```
+dos2unix init.sh
+```
+
+*If you haven't dos2unix, you can install it with the command `apt install dos2unix`.*
+
 And done! Now your system use HDMI screen if is available, otherwise will use secondary LCD!
 
 **Note!!!**

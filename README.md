@@ -22,20 +22,20 @@ The steps:
 
 ## How to use this repo
 
-First type the command `cd` to make sure you are in the right folder.
+1. First type the command `cd` to make sure you are in the right folder.
 
-Now clone this repo with the command
+2. Now clone this repo with the command
 ``` 
 git clone https://github.com/Minepas87/RetroPie-Switch.git
 ```
 
-When the process was complete type the command 
+3. When the process was complete type the command 
 ```
 cp /Retropie-Switch/rc.local /etc/rc.local
 ```
 for replace the default rc.local file with the new one.
 
-Now go to the Retropie-Switch folder with
+4. Now go to the Retropie-Switch folder with
 ```
 cd Retropie-Switch/
 ```
@@ -52,4 +52,4 @@ And done! Now your system use HDMI screen if is available, otherwise will use se
 
 In my rc.local file is included the boot script for ds4drv driver. By default is commented.
 If you want use it, open the file in terminal with `sudo nano /RetroPie-Switch/rc.local` and uncomment the line after `#SET Dualshock 4 input`.
-Than repeat the last command. 
+Than repeat command 3. 

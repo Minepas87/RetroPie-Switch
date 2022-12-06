@@ -22,6 +22,26 @@ The steps:
 
 ## How to use this repo
 
+**Read this entire document!!!**
+
+### Installer
+
+1. First type the command `cd` to make sure you are in the right folder.
+
+2. Now clone this repo with the command
+```
+git clone https://github.com/Minepas87/RetroPie-Switch.git
+```
+
+3. When the process was complete type the command 
+```
+bash /RetroPie-Switch/install.sh
+```
+
+When it finished the installation is complete! Have fun with RetroPie Switch!
+
+### Manual installation
+
 1. First type the command `cd` to make sure you are in the right folder.
 
 2. Now clone this repo with the command

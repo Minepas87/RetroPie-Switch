@@ -20,11 +20,10 @@ The steps:
 4. Enable [running ROMS from USB](https://retropie.org.uk/docs/Running-ROMs-from-a-USB-drive/) (Optional)
 5. Use this repo for enable screen switch
 
-## How to use this repo
+## How to use this repo (Read this entire document!!!)
 
-**Read this entire document!!!**
 
-### Installer
+## Installer
 
 1. First type the command `cd` to make sure you are in the right folder.
 
@@ -40,7 +39,7 @@ bash /RetroPie-Switch/install.sh
 
 When it finished the installation is complete! Have fun with RetroPie Switch!
 
-### Manual installation
+## Manual installation
 
 1. First type the command `cd` to make sure you are in the right folder.
 
